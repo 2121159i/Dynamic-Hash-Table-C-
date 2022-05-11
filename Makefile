@@ -3,7 +3,7 @@ EXE = output
 FLAGS = -W -Wall -std=c89
 SOURCES=$(wildcard *.c)
 OBJECTS=$(SOURCES:.c=.o)
-# OBJECTS = finddupl.o  mentry.o  mlistLL.o
+# OBJECTS = finddupl.o  mentry.o  mlistLL.o miu
 
 all: $(OBJECTS)
 	$(CC) -o $(EXE) $^
